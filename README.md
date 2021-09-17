@@ -8,7 +8,7 @@ import GimlyIDQRCodeScanner, {CameraType} from 'gimlyid-qr-code-scanner';
 function App() {
   return (
     <View>
-      <GimlyIDQRCodeScanner style={{flex: 1, width: '100%'}} type={CameraType.FRONT} onRead={content => console.log(content)}/>
+      <GimlyIDQRCodeScanner style={{flex: 1, width: '100%'}} onRead={content => console.log(content)}/>
     </View>
   );
 }
@@ -20,7 +20,6 @@ Note: Notice the style attribute added to the camera in order for it to take the
 | prop                 | type                         | default value | description                                                                                |
 | -------------------- | ---------------------------- | ------------- | ------------------------------------------------------------------------------------------ |
 | `style`              | `React.CSSProperties`        |               | Sets the styling of the qr code scanner.                                                   |
-| `type`               | `CameraType`                 | 'BACK'        | Sets which camera type should be used.                                                     |
 | `onRead`             | `Function`                   |               | The onRead will be called when the QR code is read and will have access to the QR content. |
 
 ### Usage

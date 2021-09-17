@@ -10,7 +10,6 @@ export const GimlyIDQRCodeScanner: FC<QRScannerProps> = (props: QRScannerProps) 
   return (
     <RNCamera
       style={style}
-      type={type}
       barCodeTypes={[RNCamera.Constants.BarCodeType.qr]}
       captureAudio={false}
       onBarCodeRead={(event: BarCodeReadEvent) => read(event, onRead)}
