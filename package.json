@@ -1,5 +1,5 @@
 {
-  "name": "gimlyid-qr-code-scanner17",
+  "name": "gimlyid-qr-code-scanner",
   "version": "0.1.0",
   "description": "A QR code scanner component for Gimly ID",
   "main": "dist/index.js",
