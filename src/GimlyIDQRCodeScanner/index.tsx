@@ -23,7 +23,7 @@ const read = (event: BarCodeReadEvent, onRead: (props: QRContent) => void) => {
       const content: QRContent = JSON.parse(`{${event.data}}`);
       onRead(content);
     } catch (error) {
-      return;
+      return {error: "wrong qr code format"};
     }
   }
 };
