@@ -1,4 +1,4 @@
-import { QRContent } from 'gimly-id-qr-code';
+import { QRContent } from 'gimlyid-qr-code';
 import React from 'react';
 
 export interface QRScannerProps {

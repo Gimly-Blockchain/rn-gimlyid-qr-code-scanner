@@ -1,4 +1,4 @@
-import { QRContent } from 'gimly-id-qr-code';
+import { QRContent } from 'gimlyid-qr-code';
 import React, { FC } from 'react';
 import { BarCodeReadEvent, RNCamera } from 'react-native-camera';
 
