@@ -3,7 +3,7 @@ A GimlyID QR code scanner component for React-Native.
 
 ### Example
  ```js
-import GimlyIDQRCodeScanner, {CameraType} from 'gimlyid-qr-code-scanner';
+import GimlyIDQRCodeScanner from 'gimlyid-qr-code-scanner';
 
 function App() {
   return (
