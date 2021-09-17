@@ -32,13 +32,13 @@ You must add the following permissions to android/app/src/main/AndroidManifest.x
 
 You’ll also need to set the dimension strategy in android/app/build.gradle. It has no default and you’ll get an error if you don’t define it:
  ```xml
-     defaultConfig {
-         applicationId "com.cameraexample"
-         minSdkVersion rootProject.ext.minSdkVersion
-         missingDimensionStrategy 'react-native-camera', 'general'
-         targetSdkVersion rootProject.ext.targetSdkVersion
-         versionCode 1
-         versionName "1.0"
+defaultConfig {
+  applicationId "com.cameraexample"
+  minSdkVersion rootProject.ext.minSdkVersion
+  missingDimensionStrategy 'react-native-camera', 'general'
+  targetSdkVersion rootProject.ext.targetSdkVersion
+  versionCode 1
+  versionName "1.0"
  ```
 
 Note: The dimension strategy should normally be set to general as above. However, you can set it to mlkit instead, if you’d like to use MLKit for QR recognition.
