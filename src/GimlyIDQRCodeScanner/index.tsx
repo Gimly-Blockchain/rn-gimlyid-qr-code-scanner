@@ -5,7 +5,7 @@ import { BarCodeReadEvent, RNCamera } from 'react-native-camera';
 import { QRScannerProps } from '../types';
 
 export const GimlyIDQRCodeScanner: FC<QRScannerProps> = (props: QRScannerProps) => {
-  const { style, onRead, type } = props;
+  const { style, onRead } = props;
 
   return (
     <RNCamera
