@@ -14,6 +14,8 @@ function App() {
 }
  ```
 
+Notice the style attribute added to the camera in order for it to take the full screen. Without these styles, you may not be able to see the camera render on your screen, as it will not occupy any space.
+
 ### API
 | prop                 | type                         | default value | description                                                                                |
 | -------------------- | ---------------------------- | ------------- | ------------------------------------------------------------------------------------------ |
