@@ -1,0 +1,1 @@
+# gimlyid-qr-code-scanner
