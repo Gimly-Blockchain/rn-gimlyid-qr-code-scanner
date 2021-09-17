@@ -47,7 +47,7 @@ Note: The dimension strategy should normally be set to general as above. However
 
 You must update Info.plist with a usage description for camera
 
- ```plist
+ ```
 ...
 <key>NSCameraUsageDescription</key>
 <string>Your own description of the purpose</string>
