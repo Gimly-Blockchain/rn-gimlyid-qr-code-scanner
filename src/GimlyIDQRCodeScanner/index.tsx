@@ -20,7 +20,7 @@ export const GimlyIDQRCodeScanner: FC<QRScannerProps> = (props: QRScannerProps) 
 const read = (event: BarCodeReadEvent, onRead: (props: QRContent) => void) => {
   if (onRead) {
     try {
-      const content: QRContent = JSON.parse(`{${event.data}}`);
+      const content: QRContent = JSON.parse(event.data);
       onRead(content);
     } catch (error) {
       return {error: "wrong qr code format"};
