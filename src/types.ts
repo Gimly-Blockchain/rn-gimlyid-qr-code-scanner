@@ -1,4 +1,4 @@
-import { QRContent } from 'gimlyid-qr-code';
+import { QRContent } from '@sphereon/gimlyid-qr-code';
 import React from 'react';
 
 export interface QRScannerProps {
