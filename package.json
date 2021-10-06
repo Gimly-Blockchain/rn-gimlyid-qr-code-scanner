@@ -1,5 +1,5 @@
 {
-  "name": "@sphereon/gimlyid-qr-code-scanner",
+  "name": "@gimly-blockchain/rn-gimlyid-qr-code-scanner",
   "version": "0.1.0",
   "description": "A QR code scanner component for Gimly ID",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "fix": "run-s fix:*",
-    "fix:prettier": "prettier \"{src, test}/**/*.(ts|tsx)\" --write",
+    "fix:prettier": "prettier \"{src,test}/**/*.(ts|tsx)\" --write",
     "fix:lint": "eslint . --ext .ts --fix"
   },
   "files": [
@@ -17,7 +17,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@sphereon/gimlyid-qr-code": "0.1.0",
+    "@gimly-blockchain/gimlyid-qr-code-generator": "0.2.0",
     "react": "^17.0.2",
     "react-native-camera": "^4.2.0"
   },

@@ -1,4 +1,4 @@
-import { QRContent } from '@sphereon/gimlyid-qr-code';
+import { QRContent } from '@gimly-blockchain/gimlyid-qr-code-generator';
 import React, { FC } from 'react';
 import { BarCodeReadEvent, RNCamera } from 'react-native-camera';
 
