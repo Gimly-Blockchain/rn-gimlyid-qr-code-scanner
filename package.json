@@ -1,7 +1,7 @@
 {
   "name": "@gimly-blockchain/rn-gimlyid-qr-code-scanner",
-  "version": "0.1.0",
-  "description": "A QR code scanner component for Gimly ID",
+  "version": "0.1.1-UNSTABLE",
+  "description": "A React Native QR code scanner component for Gimly ID",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "Apache-2.0",
